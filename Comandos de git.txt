@@ -1,0 +1,26 @@
+- Veridicar donde estan enlaza el git para hacer el commit --->  git unit
+
+- Nos muetra el estatus del archivo --->  git status
+
+---Para hacer commnit---
+
+1. poner git add . ---> Guarda la nueva version para luego hacer commit
+2. 
+
+
+
+
+
+
+
+
+
+
+
+
+- Para ver en que rama estoy  --->  git branch
+
+- Para cambiar crear una rama y usar  ---> git checkout -b ("nombre de tu rama")
+//Con el -b creo la rama y despues designo el nombre
+
+- Si quieres pasarte a otra rama  --->  git checkout ("nombre de la rama")
