@@ -1,3 +1,5 @@
+En este enlace esta mejor dicho: https://www.youtube.com/watch?v=p4bXlol-Qqs
+
 - Veridicar donde estan enlaza el git para hacer el commit --->  git unit
 
 - Nos muetra el estatus del archivo --->  git status
@@ -5,22 +7,33 @@
 ---Para hacer commnit---
 
 1. poner git add . ---> Guarda la nueva version para luego hacer commit
-2. 
-
-
-
-
-
-
-
-
-
+2. luego para hcaer commit poner... git commit -m ("Descaricion del cambio entre comillas")
+3. luego poner git push asi se actualiza
 
 
 
 - Para ver en que rama estoy  --->  git branch
 
+-Para crear una rama mas facil ---> git branch (Nombre de tu rama nueva)
+
 - Para cambiar crear una rama y usar  ---> git checkout -b ("nombre de tu rama")
 //Con el -b creo la rama y despues designo el nombre
 
 - Si quieres pasarte a otra rama  --->  git checkout ("nombre de la rama")
+
+-ahora para unir ramas primero nos ubicamos en la rama principal
+- imaginemos... tenemos 3 ramas
+    - cuerpo
+    - cabeza
+    - pierna
+- queremos que lo de cabeza se una a cuerpo ---> git merge (nombre de la rama a unirse)
+                                                 git merge cabeza
+
+- ahora quiero subir mis cambios a un repositorio en github ---> git push  
+
+---- METODO GIL PULL---
+- ahora quiero que pierna se una a cuerpo
+- me ubico en la rama principal y le pongo ---> git pull . (nombre de la rama a unirse)
+                                                git pull . pierna
+
+
