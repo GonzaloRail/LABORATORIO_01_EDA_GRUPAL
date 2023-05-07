@@ -1,0 +1,42 @@
+
+****Java Syntax**** 
+ 
+ En el capítulo anterior, creamos un archivo Java llamado Main.javay usamos el siguiente código para imprimir "Hello World" en la pantalla:
+
+public class Main {
+  public static void main(String[] args) {
+    System.out.println("Hello World");
+  }
+}
+
+****Ejemplo explicado****
+
+Cada línea de código que se ejecuta en Java debe estar dentro de un archivo class. En nuestro ejemplo, llamamos a la clase Main . Una clase siempre debe comenzar con una primera letra mayúscula.
+
+Nota: Java distingue entre mayúsculas y minúsculas: "MyClass" y "myclass" tienen un significado diferente.
+
+El nombre del archivo java debe coincidir con el nombre de la clase. Al guardar el archivo, guárdelo con el nombre de la clase y agregue ".java" al final del nombre del archivo. Para ejecutar el ejemplo anterior en su computadora, asegúrese de que Java esté correctamente instalado: Vaya al Capítulo Primeros pasos para saber cómo instalar Java. La salida debe ser:
+
+->Hello World
+
+****El método principal****
+
+El main()método es obligatorio y lo verá en todos los programas de Java:
+ -> public static void main(String[] args)
+
+****Sistema.salida.println()****
+
+Dentro del main()método, podemos usar el println() método para imprimir una línea de texto en la pantalla:
+
+public static void main(String[] args) {
+  System.out.println("Hello World");
+}
+
+
+
+
+
+
+
+
+
