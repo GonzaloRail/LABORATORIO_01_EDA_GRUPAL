@@ -25,3 +25,17 @@ Configuración para Windows
     Luego, haga clic en "Aceptar" y guarde la configuración
  5. Por último, abra el símbolo del sistema (cmd.exe) y escriba java -version para ver si Java se está ejecutando en su máquina
 
+
+
+
+
+/* Código Java
+
+Vamos a crear nuestro primer archivo Java, llamado Main.java, que se puede hacer en cualquier editor de texto (como el Bloc de notas).
+
+public class Main {
+  public static void main(String[] args) {
+    System.out.println("Hello World");
+  }
+}
+*/
