@@ -1,0 +1,27 @@
+Instalación de Java
+ Algunas PC pueden tener Java ya instalado.
+
+ Para verificar si tiene Java instalado en una PC con Windows, busque Java en la barra de inicio o escriba lo siguiente en el símbolo del sistema (cmd.exe):
+ -> C:\Users\Your Name>java -version
+ 
+ Si Java está instalado, verá algo como esto (dependiendo de la versión):
+ 
+ -> java version "11.0.1" 2018-10-16 LTS
+    Java(TM) SE Runtime Environment 18.9 (build 11.0.1+13-LTS)
+    Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.1+13-LTS, mixed mode)
+ Si no tiene Java instalado en su computadora, puede descargarlo gratis en oracle.com .
+
+ Nota: En este tutorial, escribiremos código Java en un editor de texto. Sin embargo, es posible escribir Java el un entorno de desarrollo integrado, como IntelliJ IDEA, Netbeans o Eclipse, que son especialmente útiles cuando se gestionan grandes colecciones de archivos Java.
+
+
+Configuración para Windows
+
+ Para instalar Java en Windows:
+
+ 1. Vaya a "Propiedades del sistema" (Se puede encontrar en Panel de control > Sistema y seguridad > Sistema > Configuración avanzada del sistema)
+ 2. Haga clic en el botón "Variables de entorno" en la pestaña "Avanzado"
+ 3. Luego, seleccione la variable "Ruta" en Variables del sistema y haga clic en el botón "Editar"
+ 4. Haga clic en el botón "Nuevo" y agregue la ruta donde está instalado Java, seguido de \bin . De forma predeterminada, Java se instala en C:\Program Files\Java\jdk-11.0.1 (si no se especificó nada más cuando lo instaló). En ese caso, deberá agregar una nueva ruta con: C:\Archivos de programa\Java\jdk-11.0.1\bin
+    Luego, haga clic en "Aceptar" y guarde la configuración
+ 5. Por último, abra el símbolo del sistema (cmd.exe) y escriba java -version para ver si Java se está ejecutando en su máquina
+
