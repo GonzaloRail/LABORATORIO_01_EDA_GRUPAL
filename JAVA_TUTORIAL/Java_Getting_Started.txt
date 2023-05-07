@@ -1,4 +1,5 @@
 Instalación de Java
+
  Algunas PC pueden tener Java ya instalado.
 
  Para verificar si tiene Java instalado en una PC con Windows, busque Java en la barra de inicio o escriba lo siguiente en el símbolo del sistema (cmd.exe):
