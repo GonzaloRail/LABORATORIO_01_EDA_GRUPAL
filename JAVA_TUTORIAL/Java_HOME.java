@@ -7,7 +7,7 @@ Learn Java
 */
 
 //Ejemplos
-public class Main {
+public class Java_HOME {
   public static void main(String[] args) {
     System.out.println("Hello World");
   }
